@@ -226,12 +226,19 @@ NSString* const GCOLaunchImageTransitionProgressText = @"GCOLaunchImageTransitio
       // Use Retina 4 launch image
       if( [UIScreen mainScreen].bounds.size.height == 568.0 )
       {
-         launchImage = [UIImage imageNamed:@"Default-568h@2x.png"];
+          if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1)
+          {
+              launchImage = [UIImage imageNamed:@"LaunchImage-700-568h"];
+          }
+          else
+          {
+              launchImage = [UIImage imageNamed:@"LaunchImage-568h"];
+          }
       }
       // Use Retina 3.5 launch image
       else
       {
-         launchImage = [UIImage imageNamed:@"Default.png"];
+         launchImage = [UIImage imageNamed:@"LaunchImage"];
       }
    }
    else if( [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad )

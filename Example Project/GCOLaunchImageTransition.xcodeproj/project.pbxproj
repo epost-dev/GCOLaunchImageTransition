@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72E133A01817D6C300EB7F00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E1339F1817D6C300EB7F00 /* Images.xcassets */; };
 		891AD48116BA065000981794 /* app_icon_1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 891AD47316BA065000981794 /* app_icon_1024px.png */; };
 		891AD48216BA065000981794 /* app_icon_114px.png in Resources */ = {isa = PBXBuildFile; fileRef = 891AD47416BA065000981794 /* app_icon_114px.png */; };
 		891AD48316BA065000981794 /* app_icon_144px.png in Resources */ = {isa = PBXBuildFile; fileRef = 891AD47516BA065000981794 /* app_icon_144px.png */; };
@@ -27,15 +28,13 @@
 		89BF348F16B9611000A87582 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89BF348D16B9611000A87582 /* InfoPlist.strings */; };
 		89BF349116B9611000A87582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF349016B9611000A87582 /* main.m */; };
 		89BF349516B9611000A87582 /* GCOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF349416B9611000A87582 /* GCOAppDelegate.m */; };
-		89BF349716B9611000A87582 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF349616B9611000A87582 /* Default.png */; };
-		89BF349916B9611000A87582 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF349816B9611000A87582 /* Default@2x.png */; };
-		89BF349B16B9611000A87582 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BF349A16B9611000A87582 /* Default-568h@2x.png */; };
 		89BF349E16B9611000A87582 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF349C16B9611000A87582 /* MainStoryboard_iPhone.storyboard */; };
 		89BF34A116B9611000A87582 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF349F16B9611000A87582 /* MainStoryboard_iPad.storyboard */; };
 		89BF34AC16B963D900A87582 /* GCOLaunchImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BF34AB16B963D900A87582 /* GCOLaunchImageTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72E1339F1817D6C300EB7F00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		891AD47316BA065000981794 /* app_icon_1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_1024px.png; sourceTree = "<group>"; };
 		891AD47416BA065000981794 /* app_icon_114px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_114px.png; sourceTree = "<group>"; };
 		891AD47516BA065000981794 /* app_icon_144px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_144px.png; sourceTree = "<group>"; };
@@ -60,9 +59,6 @@
 		89BF349216B9611000A87582 /* GCOLaunchImageTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCOLaunchImageTransition-Prefix.pch"; sourceTree = "<group>"; };
 		89BF349316B9611000A87582 /* GCOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCOAppDelegate.h; sourceTree = "<group>"; };
 		89BF349416B9611000A87582 /* GCOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCOAppDelegate.m; sourceTree = "<group>"; };
-		89BF349616B9611000A87582 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		89BF349816B9611000A87582 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		89BF349A16B9611000A87582 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		89BF349D16B9611000A87582 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		89BF34A016B9611000A87582 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		89BF34AA16B963D900A87582 /* GCOLaunchImageTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCOLaunchImageTransition.h; path = ../../GCOLaunchImageTransition/GCOLaunchImageTransition.h; sourceTree = "<group>"; };
@@ -140,6 +136,7 @@
 				89BF349F16B9611000A87582 /* MainStoryboard_iPad.storyboard */,
 				89BF34AA16B963D900A87582 /* GCOLaunchImageTransition.h */,
 				89BF34AB16B963D900A87582 /* GCOLaunchImageTransition.m */,
+				72E1339F1817D6C300EB7F00 /* Images.xcassets */,
 				89BF348B16B9611000A87582 /* Supporting Files */,
 			);
 			path = GCOLaunchImageTransition;
@@ -152,9 +149,6 @@
 				89BF348D16B9611000A87582 /* InfoPlist.strings */,
 				89BF349016B9611000A87582 /* main.m */,
 				89BF349216B9611000A87582 /* GCOLaunchImageTransition-Prefix.pch */,
-				89BF349616B9611000A87582 /* Default.png */,
-				89BF349816B9611000A87582 /* Default@2x.png */,
-				89BF349A16B9611000A87582 /* Default-568h@2x.png */,
 				891AD47216BA065000981794 /* iOS Icon Set */,
 			);
 			name = "Supporting Files";
@@ -213,14 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				89BF348F16B9611000A87582 /* InfoPlist.strings in Resources */,
-				89BF349716B9611000A87582 /* Default.png in Resources */,
-				89BF349916B9611000A87582 /* Default@2x.png in Resources */,
-				89BF349B16B9611000A87582 /* Default-568h@2x.png in Resources */,
 				89BF349E16B9611000A87582 /* MainStoryboard_iPhone.storyboard in Resources */,
 				89BF34A116B9611000A87582 /* MainStoryboard_iPad.storyboard in Resources */,
 				891AD48116BA065000981794 /* app_icon_1024px.png in Resources */,
 				891AD48216BA065000981794 /* app_icon_114px.png in Resources */,
 				891AD48316BA065000981794 /* app_icon_144px.png in Resources */,
+				72E133A01817D6C300EB7F00 /* Images.xcassets in Resources */,
 				891AD48416BA065000981794 /* app_icon_29px.png in Resources */,
 				891AD48516BA065000981794 /* app_icon_320px.png in Resources */,
 				891AD48616BA065000981794 /* app_icon_48px.png in Resources */,
@@ -339,6 +331,8 @@
 		89BF34A816B9611000A87582 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCOLaunchImageTransition/GCOLaunchImageTransition-Prefix.pch";
 				INFOPLIST_FILE = "GCOLaunchImageTransition/GCOLaunchImageTransition-Info.plist";
@@ -350,6 +344,8 @@
 		89BF34A916B9611000A87582 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCOLaunchImageTransition/GCOLaunchImageTransition-Prefix.pch";
 				INFOPLIST_FILE = "GCOLaunchImageTransition/GCOLaunchImageTransition-Info.plist";
